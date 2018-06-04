@@ -1,0 +1,7 @@
+/* Try to get two columns of projects for a mid-size screen. */
+
+.project {
+  width: 45%;
+  max-width: 270px;
+  margin: 20px 10px auto;
+}

@@ -1,0 +1,42 @@
+/* In mobile, hide the sidebar, make main 100%, center projects. */
+
+.sidebar {
+  order: 2;
+  width: 285px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sidebar-square {
+  width: 33.33%;
+}
+
+.main {
+  order: 1;
+  width: 100%;
+}
+
+.featured-work {
+  width: 100%;
+}
+
+.featured-title {
+  text-align: center;
+}
+
+.project {
+  width: 285px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.header {
+  margin: auto;
+}
+
+.logo,
+.dev-info {
+  width: 100%;
+  text-align: center;
+}

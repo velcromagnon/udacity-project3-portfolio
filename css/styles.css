@@ -1,0 +1,134 @@
+/* Common definitions -TODO- move to a separate stylesheet. */
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width:100%;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+hr {
+  height: 3px;
+  background: #7d97ad;
+}
+
+.featured-title {
+  font-size: 2em;
+  margin: 0.67em, 0;
+  font-weight: bold;
+}
+
+/* Entire page - need this also for margins on large displays */
+
+.page {
+  max-width: 1015px;
+  min-width: 200px;
+}
+
+/* Settings for aside. */
+
+.sidebar {
+  width: 12%;
+  margin: 142px 0 auto;
+}
+
+.sidebar-square {
+  width: 100%;
+}
+
+.color-code {
+  text-align: center;
+  font-family: initial !important;
+}
+
+/* Content area. */
+
+.main {
+  width: 88%;
+}
+
+/* Styling for header. */
+
+.logo {
+  width: 50%;
+  margin: auto;
+}
+
+.logo-image {
+  width: 75px;
+}
+
+.dev-info {
+  width: 50%;
+  text-align: right;
+}
+
+.dev-name {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* Styling for colors and sidebar. */
+
+.colortext {
+  color: #777;
+  width: 100%;
+  text-align: center;
+}
+
+.squares {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.sq-maroon {
+  background: #732;
+}
+
+.sq-black {
+  background: #2d3c49;
+}
+
+.sq-gray {
+  background: #7d97ad;
+}
+
+.color-maroon {
+  color: #732;
+}
+
+.color-black {
+  color: #2d3c49;
+}
+
+.color-gray {
+  color: #7d97ad;
+}
+
+.project {
+  width: 32%;
+  margin: 0 5px 30px;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.project-title,
+.project-link {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Project names and images are placeholders -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Demo portfolio">
+    <meta name="keywords" content="HTML,CSS,Portfolio">
+    <meta name="author" content="Steve Lent">
+    <title>Steve Lent's Portfolio</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- stylesheets and media queries-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:601px) and (max-width:880px)" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (min-width:1015px)" href="css/desktop.css">
+  </head>
+
+  <body>
+    <div class="container page">
+      <aside class="sidebar">
+        <div class="container">
+          <div class="sidebar-square">
+            <div class="squares sq-maroon"></div>
+            <p class="color-gray color-code">#703020<p>
+          </div>
+
+          <div class="sidebar-square">
+            <div class="squares sq-black"></div>
+            <p class="color-gray color-code">#2d3c49<p>
+          </div>
+
+          <div class="sidebar-square">
+            <div class="squares sq-gray"></div>
+            <p class="color-gray color-code">#7d97ad</p>
+          </div>
+        </div>
+      </aside>
+
+      <div class="main">
+        <header class="header container">
+          <div class="logo">
+            <img class="logo-image" src="images/UdacityIcon120.jpg" alt="Udacity Logo">
+          </div>
+          <div class="dev-info uppercase">
+            <p><span class="dev-name color-maroon">Steve Lent</span></p>
+            <h4 class="dev-title color-black">front-end apprentice</h4>
+          </div>
+        </header>
+
+        <hr class="color-gray">
+        <img src="images/MountThorSM.jpg" alt="Mount Thor">
+
+        <section>
+          <p><span class="featured-title color-gray">Featured Work</span></p>
+
+          <main class="featured-work container">
+            <article class="project">
+              <img src="images/kittens.jpg" alt="Kittens">
+              <h2 class="project-title">Kittens</h2>
+              <a href="https://github.com/udacity/Kittens/" target="_blank"><p class="project-link">https://github.com/udacity/Kittens/</p></a>
+            </article>
+
+            <article class="project">
+              <img src="images/puppiesSM.jpg" alt="Puppies">
+              <h2 class="project-title">Puppies</h2>
+              <a href="https://github.com/udacity/Puppies/" target="_blank"><p class="project-link">https://github.com/udacity/Puppies/</p></a>
+            </article>
+
+            <article class="project">
+              <img src="images/werewolfSM.jpg" alt="Werewolf">
+              <h2 class="project-title">Werewolf</h2>
+              <a href="https://github.com/udacity/Werewolf/" target="_blank"><p class="project-link">https://github.com/udacity/Werewolf</p></a>
+            </article>
+          </main>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

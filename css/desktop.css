@@ -1,0 +1,5 @@
+/* For a large screen, just make sure to pad margins. */
+
+.page {
+  margin: auto;
+}
